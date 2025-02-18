@@ -1,16 +1,19 @@
-# calculator_app
+# Calculator App
 
-A new Flutter project.
+A Flutter-based calculator application that supports basic arithmetic operations along with custom delimiter handling for strings of numbers. The app allows users to enter numbers in various formats (comma-separated, newline-separated, or custom delimiters) and calculate the sum of those numbers.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Basic Calculator:** Calculate the sum of numbers provided by the user.
+- **Custom Delimiters:** Support for custom delimiters (`//<delimiter>\n<numbers>`) as well as multi-character delimiters.
+- **Input Formats:** Support for multiple input formats:
+  - Comma-separated (`1,2,3`)
+  - Newline-separated (`1\n2\n3`)
+  - Custom delimiters (`//;\n1;2`)
+- **Error Handling:** Graceful handling of invalid inputs (e.g., invalid number formats, negative numbers).
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/neelamraj25/calculator_tdd.git
